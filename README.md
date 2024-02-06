@@ -32,10 +32,40 @@ The column names in this dataframe were the questions asked in the survey. They 
 ![Cleaning column names](./Images/Python4.png)  <br/> <br/>
 ![Cleaning column names](./Images/Python5.png)  <br/> <br/>
 
-The raw_vas_df now had clean and easy to read column names ready for transformation. I proceeded to create a dataframe to get the rating of every Value added service as rated by each merchant. I stored this transformed data in a dataframe called rating_df<br><br>
+The raw_vas_df now had clean and easy to read column names ready for transformation. I proceeded to create a dataframe to get the rating of every Value-added Service as rated by each merchant. I stored this transformed data in a dataframe called rating_df<br><br>
 ![rating_df](./Images/Python6.png)  <br/> <br/>
 ![rating_df](./Images/Python7.png)  <br/> <br/>
 ![rating_df](./Images/Python8.png)  <br/> <br/>
 
+I also created another dataframe to get the rating of merchants' pain points as rated by each merchant. I stored this transformed data in a dataframe called pain_points_df<br><br>
+![painpoints_df](./Images/Python9.png)  <br/> <br/>
+![painpoints_df](./Images/Python10.png)  <br/> <br/>
+![painpoints_df](./Images/Python11.png)  <br/> <br/>
+
+Finally, I also created the last dataframe to get the challenges faced by merchants. I stored this data in a dataframe called challenges_df<br><br>
+![challenges_df](./Images/Python12.png)  <br/> <br/>
+![challenges_df](./Images/Python13.png)  <br/> <br/>
+![challenges_df](./Images/Python14.png)  <br/> <br/>
+
+The data was now well structured, cleaned, transformed, wrangled, and well modelled for creating visualizations. I then proceeded to Power BI for to visualize the data
+
+## Data visualization in Power BI
+I imported the data into Power BI using the python script method. The data was already preprocessed so there was nothing much to do in power Query apart from ensuring the data has the correct column names and data types.<br/>
+![Power Query](./Images/PowerQuery.png)  <br/> <br/>
+
+I then ensured that all the tables had the correct and active relationships between them so that the insights were accurate and interactive <br/>
+![PowerBI Relationships](./Images/PBIRelationships.png)<br/> <br/>
+
+I then preceeded to create the visualizations to answer my clients questions. I translated the wealth of the data insights into a dynamic and engaging report that not only answered my clients' key questions but also provided an immersive experience. The report design incorporated strategically placed tiles offering quick snapshots of pertinent statistics, ensuring at-a-glance comprehension of critical information.
+
+To facilitate a deeper understanding, I integrated filters, allowing stakeholders to navigate through layers of data effortlessly. This feature enabled the extraction of more nuanced insights, catering to the specific queries and interests of our clients.
+
+The visualizations themselves were not just static representations but interactive elements that invited users to embark on a journey of exploration. By fostering a seamless transition from high-level overviews to granular details, these visuals facilitated a comprehensive understanding of the complexities surrounding merchants' preferences for Value-Added Services (VAS).<br/>
+![PowerBI Relationships](./Images/Page1.png)<br/> <br/>
+![PowerBI Relationships](./Images/Page2.png)<br/> <br/>
+![PowerBI Relationships](./Images/Page3.png)<br/> <br/>
 
 
+In conclusion, this project represents a significant milestone in uncovering the intricate landscape of merchants' preferences and challenges surrounding Value-Added Services (VAS). Through meticulous data wrangling using Python and the subsequent creation of a visually striking, informative, and interactive Power BI report, I have navigated through the complexities of the dataset to extract meaningful insights.
+
+The outcomes of this project provided a solid foundation for enhancing my client's value proposition, strengthening his market competitiveness, and potentially uncovering new revenue streams. The blend of analytical rigor, technical proficiency, and the creation of a visually impactful report positions this project as a valuable resource for shaping the trajectory of my client's company in response to the ever-evolving landscape of merchant preferences and challenges in the realm of Value-Added Services.
